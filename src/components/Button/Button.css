@@ -1,0 +1,18 @@
+.button {
+  font-family: "Jost", sans-serif;
+  padding: 7px 34px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 50px;
+  background-color: #2b8cfc;
+  color: #fff;
+}
+
+.button_white {
+  font-weight: 300;
+
+  background-color: #fff;
+  color: #767676;
+  border: 1px solid #D3D7DB;
+  box-sizing: border-box;
+}

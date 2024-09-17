@@ -1,0 +1,53 @@
+.edging {
+  margin-top: 100px !important;
+  margin-bottom: 100px !important;
+
+  display: grid;
+  grid-template: 1fr 1fr / repeat(5, 1fr);
+  grid-gap: 35px;
+}
+
+.edging__description {
+  grid-column: 1 / span 2;
+  margin: auto 0;
+}
+
+.edging__title {
+  font-family: "Jost", sans-serif;
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 66.66px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.edging__subtitle {
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.edging__subtitle > span {
+  color: #2e9ae8;
+}
+
+.edging__wrapper-img {
+  position: relative;
+}
+
+.edging__name {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  padding: 6px 13px;
+
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20.51px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  text-transform: uppercase;
+
+  background-color: rgba(43, 79, 97, 0.6);
+}

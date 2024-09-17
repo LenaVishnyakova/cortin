@@ -1,0 +1,26 @@
+.nav {
+  font-family: "Jost", sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 51px;
+}
+
+.nav__item {
+  color: var(--dark-blue);
+  font-weight: 500;
+}
+
+.nav__item_yellow {
+    padding: 7px 28px;
+    border: 1px solid #BD8355;
+    border-radius: 20px;
+
+    color: #BD8355;
+}
+
+@media (max-width: 768px) {
+  .nav {
+    gap: 25px;
+  }
+  
+}

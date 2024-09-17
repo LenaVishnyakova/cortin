@@ -1,0 +1,32 @@
+.places {
+    padding-bottom: 167px;
+}
+
+.places__title {
+  font-family: "Jost", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 51.28px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.places__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.places__place {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+.places__place-bottom {
+    margin-top: 120px;
+    margin-left: 102px;
+    display: flex;
+    align-items: center;
+    gap: 37px;
+}
